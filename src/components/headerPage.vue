@@ -5,8 +5,8 @@
         <img
           src="@/img/dc-logo.png"
           alt="Logo"
-          width="100"
-          height="100"
+          width="100%"
+          height="100%"
           class="p-5"
         />
       </a>
