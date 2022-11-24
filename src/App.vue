@@ -19,4 +19,9 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+.container {
+  font-family: "Lato", sans-serif;
+  height: 100vh;
+}
+</style>

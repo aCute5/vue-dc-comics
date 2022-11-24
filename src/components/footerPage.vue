@@ -17,10 +17,16 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Disabled</a>
       </li>
-      <h2>SHOP</h2>
       <li class="nav-item">
         <a class="nav-link" href="#">Disabled</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Disabled</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Disabled</a>
+      </li>
+      <h2>SHOP</h2>
       <li class="nav-item">
         <a class="nav-link" href="#">Disabled</a>
       </li>
@@ -44,7 +50,12 @@
       <li class="nav-item">
         <a class="nav-link" href="#">Disabled</a>
       </li>
-      <h2>SHOP</h2>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Disabled</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Disabled</a>
+      </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Disabled</a>
       </li>
@@ -67,16 +78,6 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Disabled</a>
-      </li>
-      <h2>SHOP</h2>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Disabled</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Disabled</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Disabled</a>
@@ -131,7 +132,10 @@ footer {
 }
 .footer-ul {
   flex-direction: column;
-  padding-left: 3rem;
+}
+.footer-ul .nav-item a {
+  color: #5f5a5a;
+  font-size: 12px;
 }
 footer .bottomfooter {
   background-color: #303030;
@@ -141,6 +145,7 @@ footer .bottomfooter {
   flex-basis: 100%;
   align-items: center;
   z-index: 2;
+  margin: 0;
 }
 .bottomfooter ul {
   justify-content: space-around;
