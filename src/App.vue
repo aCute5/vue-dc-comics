@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="containermine">
     <headerPage></headerPage>
     <mainPage></mainPage>
     <footerPage></footerPage>
@@ -20,8 +20,15 @@ export default {
 </script>
 
 <style lang="scss">
-.container {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.containermine {
+  margin: 0;
+  padding: 0;
   font-family: "Lato", sans-serif;
-  height: 100vh;
+  box-sizing: border-box;
 }
 </style>
